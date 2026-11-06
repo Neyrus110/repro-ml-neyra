@@ -1,0 +1,2 @@
+# Mantener intactos los bytes de los datos recibidos y sus hashes en cualquier sistema.
+data/raw/*.csv -text
