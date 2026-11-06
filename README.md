@@ -66,7 +66,9 @@ La ejecución con semilla 42 se repitió tres veces en el entorno local y produj
 
 En cada fila, las medias y desviaciones estándar (DE) corresponden a los cinco folds de esa semilla. El **resultado reportado**, calculado a partir de las cinco medias de MAE y su DE muestral entre semillas, es **baseline: S/ 631.0777 ± 0.1597** y **KNN: S/ 588.1200 ± 4.5778**. Estas DE entre semillas son distintas de las DE entre folds de la tabla.
 
-Captura de las diez corridas de MLflow: **pendiente de crear `docs/mlflow.png`**.
+Captura de las diez corridas registradas en MLflow:
+
+![Diez corridas en MLflow: cinco de KNN y cinco del baseline](docs/mlflow.png)
 
 ## Estructura de datos
 
@@ -85,7 +87,7 @@ El origen conocido, los hashes, el diccionario y las condiciones pendientes se d
 | Historial de al menos 6 commits | **Pendiente:** registrar los cambios de forma auténtica durante el desarrollo y publicar el historial. |
 | Sin fuga de datos | El 20 % se reserva con la semilla fija 42. La imputación, el escalamiento y la codificación se ajustan dentro del `Pipeline` en cada fold del 80 % restante. |
 | Aleatoriedad fija | La partición usa la semilla 42; la validación cruzada usa las semillas 0, 1, 2, 3 y 42. `PYTHONHASHSEED` se fija antes de iniciar Python. |
-| Cinco semillas en MLflow | Se ejecutaron cinco corridas para el baseline y cinco para KNN; el script calcula media y desviación estándar muestral del MAE entre semillas. La captura está pendiente. |
+| Cinco semillas en MLflow | Se ejecutaron cinco corridas para el baseline y cinco para KNN; el script calcula media y desviación estándar muestral del MAE entre semillas. La captura se encuentra en `docs/mlflow.png`. |
 | Mismos datos para todos | El grupo debe confirmar que usa el mismo archivo y comparar el MD5 de `processed`; la partición también debe mantenerse igual. |
 | Entorno exacto | Python 3.11.18 y las versiones fijadas en `requirements.txt`. La corrida de semilla 42 se repitió tres veces con la misma salida. Una clonación local en Windows y un entorno virtual nuevo reprodujeron la salida y el CSV de las diez corridas. Falta la prueba independiente de un compañero. |
 
