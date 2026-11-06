@@ -84,7 +84,7 @@ El origen conocido, los hashes, el diccionario y las condiciones pendientes se d
 
 | Requisito | Cómo se cumple o qué falta |
 |---|---|
-| Historial de al menos 6 commits | **Pendiente:** registrar los cambios de forma auténtica durante el desarrollo y publicar el historial. |
+| Historial de al menos 6 commits | El historial contiene al menos seis commits auténticos, realizados el 5 de noviembre de 2026. No están distribuidos durante la semana como pide la consigna. |
 | Sin fuga de datos | El 20 % se reserva con la semilla fija 42. La imputación, el escalamiento y la codificación se ajustan dentro del `Pipeline` en cada fold del 80 % restante. |
 | Aleatoriedad fija | La partición usa la semilla 42; la validación cruzada usa las semillas 0, 1, 2, 3 y 42. `PYTHONHASHSEED` se fija antes de iniciar Python. |
 | Cinco semillas en MLflow | Se ejecutaron cinco corridas para el baseline y cinco para KNN; el script calcula media y desviación estándar muestral del MAE entre semillas. La captura se encuentra en `docs/mlflow.png`. |
