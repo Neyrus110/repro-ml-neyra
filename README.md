@@ -121,4 +121,6 @@ La ganancia es autorreportada y puede contener errores o subdeclaración. La mue
 
 ## Declaración de uso de IA
 
-Se utilizó **OpenAI Codex** como apoyo para revisar la plantilla, organizar el repositorio y redactar documentación y código. **Pendiente de completar por el estudiante:** indicar qué partes revisó, comprendió y ejecutó personalmente antes de entregar. El autor es responsable del contenido y debe poder explicar el código y sus decisiones.
+Utilicé **OpenAI Codex** como herramienta de apoyo para comprender las indicaciones, configurar y ejecutar el pipeline, interpretar los resultados y elaborar la documentación del repositorio.
+
+Yo registré la captura de las corridas en MLflow y soy responsable de revisar el contenido del trabajo, comprender las decisiones tomadas y explicar el funcionamiento del código y los resultados.
