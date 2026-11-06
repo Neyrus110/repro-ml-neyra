@@ -121,6 +121,6 @@ La ganancia es autorreportada y puede contener errores o subdeclaración. La mue
 
 ## Declaración de uso de IA
 
-Definí el uso del algoritmo KNN, proporcioné y confirmé la base de datos y la variable objetivo del proyecto, ejecuté el pipeline y registré la captura de las corridas en MLflow. Soy responsable de revisar el contenido del repositorio, comprender las decisiones tomadas y explicar el funcionamiento del código y los resultados.
+Definí el uso del algoritmo KNN, proporcioné y confirmé la base de datos y la variable objetivo, revisé la configuración del modelo, ejecuté el pipeline, interpreté los resultados y registré la captura de las corridas en MLflow. Soy responsable del contenido del repositorio y de explicar las decisiones, el código y los resultados.
 
 Utilicé **OpenAI Codex** como apoyo para interpretar las indicaciones, configurar y ejecutar el pipeline, analizar los resultados y redactar la documentación.
