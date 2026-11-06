@@ -5,10 +5,11 @@
 | Archivo en `data/raw/` | `sentrybox_enaho2025.csv` |
 | Fuente | INEI, Encuesta Nacional de Hogares (ENAHO) 2025, módulo 500, «Empleo e Ingresos», según el cuaderno del grupo. |
 | Portal de origen | [Microdatos del INEI](https://proyectos.inei.gob.pe/microdatos/). La URL directa y la ficha de la descarga original quedan por verificar. |
+| Ficha pública de la encuesta | [ENAHO 2025 — Plataforma Nacional de Datos Abiertos](https://www.datosabiertos.gob.pe/dataset/encuesta-nacional-de-hogares-enaho-2025-instituto-nacional-de-estad%C3%ADstica-e-inform%C3%A1tica-%E2%80%93), publicada por el INEI. La ficha identifica una distribución de datos completos y otra de muestra; no se sabe desde cuál descargó el grupo. |
 | Archivo original indicado en el cuaderno | `Enaho01a-2025-500.csv`. El archivo de este repositorio es un **subconjunto derivado**, no el original del INEI. |
 | Fecha de descarga original | Pendiente de confirmar con el grupo. |
-| Licencia o condiciones de uso | Pendiente de verificar en la fuente oficial. |
-| ¿Se permite redistribuir el subconjunto? | Pendiente de confirmar. Antes de publicar el CSV, verificar las condiciones aplicables. |
+| Licencia o condiciones de uso | La ficha oficial de ENAHO 2025 indica [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/). Las condiciones de la descarga concreta y del subconjunto del grupo siguen pendientes de comprobar. |
+| ¿Se permite redistribuir el subconjunto? | La ODbL permite compartir y adaptar datos sujetos a sus condiciones, incluida la atribución y, cuando corresponda, compartir la base derivada bajo los mismos términos. La procedencia concreta del subconjunto debe confirmarse. |
 | Filas × columnas del CSV recibido | 4 765 × 18 |
 | MD5 del CSV recibido (raw) | `79cb9c9fcccd760795c3a28fdc8b35e3` |
 | MD5 del archivo processed | `f2a07a276a13ca7f0272aa8d8004b2df` (generado en Windows con Python 3.11.18 y pandas 2.2.3). |

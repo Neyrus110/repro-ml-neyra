@@ -8,14 +8,14 @@ SentryBox estudia la estimación de la **ganancia neta mensual**, en soles, de t
 
 ## Cómo reproducir
 
-Entorno local: **Python 3.11.18, Windows 11 Home**. Las versiones de las cuatro bibliotecas solicitadas y SQLAlchemy (necesaria para la compatibilidad de MLflow) se fijan en `requirements.txt`. Ejecutar los comandos desde la raíz del repositorio. Sustituir `URL_DEL_REPOSITORIO` por su enlace público una vez creado.
+Entorno local: **Python 3.11.18, Windows 11 Home**. Las versiones de las cuatro bibliotecas solicitadas y SQLAlchemy (necesaria para la compatibilidad de MLflow) se fijan en `requirements.txt`. Ejecutar los comandos desde la raíz del repositorio.
 
 La ejecución que produjo los resultados mostrados se hizo en Windows. Para la prueba del extraño se recomienda Windows mientras se consulta con la docente cómo resolver la diferencia entre sistemas: el CSV processed puede generarse con finales de línea CRLF en Windows y LF en macOS/Linux, lo que cambia su MD5 aunque sus datos sean iguales. Por ello no se ha comprobado la igualdad exacta del JSON entre sistemas.
 
 Windows (PowerShell):
 
 ```powershell
-git clone URL_DEL_REPOSITORIO repro
+git clone https://github.com/Neyrus110/repro-ml-neyra.git repro
 cd repro
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -29,7 +29,7 @@ python -m src.run_seeds
 macOS / Linux:
 
 ```bash
-git clone URL_DEL_REPOSITORIO repro
+git clone https://github.com/Neyrus110/repro-ml-neyra.git repro
 cd repro
 python3 -m venv .venv
 source .venv/bin/activate
@@ -78,7 +78,7 @@ Captura de las diez corridas registradas en MLflow:
 | processed (silver) | `data/processed/` | Datos preparados | Se regenera con `python -m src.prepare_data`. |
 | results (gold) | `results/` | Métricas por modelo y semilla | Se regenera con `python -m src.run_seeds`. |
 
-El origen conocido, los hashes, el diccionario y las condiciones pendientes se documentan en [el manifiesto](data/MANIFIESTO.md). Debe confirmarse la licencia o las condiciones de redistribución antes de publicar el CSV.
+El origen conocido, los hashes, el diccionario y las condiciones pendientes se documentan en [el manifiesto](data/MANIFIESTO.md). La ficha oficial del INEI indica la licencia ODbL para ENAHO 2025; queda por confirmar la procedencia concreta del subconjunto del grupo y las condiciones que se le aplican.
 
 ## Qué lo hace reproducible
 
