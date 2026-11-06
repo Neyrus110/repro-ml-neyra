@@ -11,7 +11,7 @@
 | ¿Se permite redistribuir el subconjunto? | Pendiente de confirmar. Antes de publicar el CSV, verificar las condiciones aplicables. |
 | Filas × columnas del CSV recibido | 4 765 × 18 |
 | MD5 del CSV recibido (raw) | `79cb9c9fcccd760795c3a28fdc8b35e3` |
-| MD5 del archivo processed | Se obtiene al ejecutar `python -m src.prepare_data`. |
+| MD5 del archivo processed | `f2a07a276a13ca7f0272aa8d8004b2df` (generado en Windows con Python 3.11.18 y pandas 2.2.3). |
 
 ## Diccionario de las variables usadas
 
