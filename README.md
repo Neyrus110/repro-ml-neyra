@@ -2,7 +2,7 @@
 
 Machine Learning I · Proyecto Integrador · Entregable individual  
 **Estudiante:** Giancarlo Stefano Neyra Santa Cruz · **Grupo:** Equipo 1 · **GitHub:** Neyrus110  
-**Modelo configurado:** KNN para regresión, con 5 vecinos. **Asignación pendiente de confirmar con la docente:** según el orden de integrantes en el informe disponible, al quinto integrante le corresponde SVR; se está usando KNN por indicación del estudiante.
+**Modelo configurado:** KNN para regresión, con 5 vecinos. La asignación de KNN fue confirmada por el estudiante.
 
 SentryBox estudia la estimación de la **ganancia neta mensual**, en soles, de trabajadores independientes y empleadores del comercio minorista. El archivo compartido por el grupo es un subconjunto de la **ENAHO 2025, módulo 500, del INEI**: contiene 4 765 filas y 18 columnas. Se compara KNN con un baseline que predice la mediana. La métrica principal es el error absoluto medio (MAE, en soles); se informan también RMSE y R².
 
